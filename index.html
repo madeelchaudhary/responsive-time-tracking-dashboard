@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Time tracking dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <div class="grid">
+
+        <section class="report-card">
+          <article class="card-header">
+            <figure class="user-img-container">
+              <img src="images/image-jeremy.png" alt="" class="user-img">
+            </figure>
+            <div class="card-content">
+              <p class="text-mute text-small">
+                Report for
+              </p>
+              <h2 class="title user-name">
+                Jeremy Robson
+              </h2>
+            </div>
+          </article>
+          <div class="card-footer">
+            <ul class="controls">
+              <li class="control-list-item">
+                <button class="control-list-btn" data-label="daily">
+                  Daily
+                </button>
+              </li>
+              <li class="control-list-item">
+                <button class="control-list-btn text-mute" data-label="weekly">
+                  Weekly
+                </button>
+              </li>
+              <li class="control-list-item">
+                <button class="control-list-btn text-mute" data-label="monthly">
+                  Monthly
+                </button>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="stat-cards grid">
+          <div class="card card-work">
+            <div class="card-header">
+              <img src="images/icon-work.svg" alt="" class="card-icon">
+            </div>
+            <article class="card-body">
+              <div class="flex card-flex">
+                <p class="card-label">
+                  Work
+                </p>
+                <img src="images/icon-ellipsis.svg" alt="" class="card-setting-icon">
+              </div>
+              <div class="stats" data-stats="work">
+                <h3 class="title card-timings">
+                  32hrs
+                </h3>
+                <p class="text-small text-mute">
+                  Last Week - 36hrs
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="card card-play">
+            <div class="card-header">
+              <img src="images/icon-play.svg" alt="" class="card-icon">
+            </div>
+            <article class="card-body">
+              <div class="flex card-flex">
+                <p class="card-label">
+                  Play
+                </p>
+                <img src="images/icon-ellipsis.svg" alt="" class="card-setting-icon">
+              </div>
+              <div class="stats" data-stats="play">
+                <h3 class="title card-timings">
+                  32hrs
+                </h3>
+                <p class="text-small text-mute">
+                  Last Week - 36hrs
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="card card-study">
+            <div class="card-header">
+              <img src="images/icon-study.svg" alt="" class="card-icon">
+            </div>
+            <article class="card-body">
+              <div class="flex card-flex">
+                <p class="card-label">
+                  Study
+                </p>
+                <img src="images/icon-ellipsis.svg" alt="" class="card-setting-icon">
+              </div>
+              <div class="stats" data-stats="study">
+                <h3 class="title card-timings">
+                  32hrs
+                </h3>
+                <p class="text-small text-mute">
+                  Last Week - 36hrs
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="card card-exercise">
+            <div class="card-header">
+              <img src="images/icon-exercise.svg" alt="" class="card-icon">
+            </div>
+            <article class="card-body">
+              <div class="flex card-flex">
+                <p class="card-label">
+                  Exercise
+                </p>
+                <img src="images/icon-ellipsis.svg" alt="" class="card-setting-icon">
+              </div>
+              <div class="stats" data-stats="exercise">
+                <h3 class="title card-timings">
+                  32hrs
+                </h3>
+                <p class="text-small text-mute">
+                  Last Week - 36hrs
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="card card-social">
+            <div class="card-header">
+              <img src="images/icon-social.svg" alt="" class="card-icon">
+            </div>
+            <article class="card-body">
+              <div class="flex card-flex">
+                <p class="card-label">
+                  Social
+                </p>
+                <img src="images/icon-ellipsis.svg" alt="" class="card-setting-icon">
+              </div>
+              <div class="stats" data-stats="social">
+                <h3 class="title card-timings">
+                  32hrs
+                </h3>
+                <p class="text-small text-mute">
+                  Last Week - 36hrs
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="card card-self-care">
+            <div class="card-header">
+              <img src="images/icon-self-care.svg" alt="" class="card-icon">
+            </div>
+            <article class="card-body">
+              <div class="flex card-flex">
+                <p class="card-label">
+                  Self Care
+                </p>
+                <img src="images/icon-ellipsis.svg" alt="" class="card-setting-icon">
+              </div>
+              <div class="stats" data-stats="self care">
+                <h3 class="title card-timings">
+                  32hrs
+                </h3>
+                <p class="text-small text-mute">
+                  Last Week - 36hrs
+                </p>
+              </div>
+            </article>
+          </div>
+
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+
+
+</body>
+
+</html>
